@@ -35,7 +35,8 @@
 }
 
 .responsive-img { 
-  width: 880px; 
+  width: 880px;
+  opacity: 0.9;
 }
 
 .img-info {
