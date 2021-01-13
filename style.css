@@ -107,13 +107,13 @@
   justify-content: space-between;
 }
 
+ul {
+  list-style: none;
+}
+
 .nav-footer ul {
   display: flex;
   justify-content: center;
-}
-
-ul {
-  list-style: none;
 }
 
 a {
