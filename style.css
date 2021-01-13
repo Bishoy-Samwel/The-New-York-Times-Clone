@@ -3,10 +3,7 @@
   src: url(./chomsky-font/misc/Chomsky-399c.woff);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-
-
-* {
+* , * {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
