@@ -40,10 +40,7 @@
   border: 1px solid black;
 }
 
-.first {
-  font-family: chomsky;
-  font-size: 25px;
-}
+.first {font-size: 25px;}
 
 .left-header {
   display: flex;
