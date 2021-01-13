@@ -41,7 +41,7 @@
 }
 
 .first {
-  font-family: chomsky, Courier;
+  font-family: "chomsky", Courier;
   font-size: 25px;
 }
 
@@ -99,6 +99,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 10% 0 10%;
+  border-top: 1px solid rgba(0, 0, 0, 0.219);
 }
 
 .footer-categories {
@@ -150,14 +151,12 @@ div .catergory-heading {
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.075);
   height: 40px;
-  height: 40px;
   margin: 5px;
 }
 
 .icon-item:hover {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.144);
-  height: 39px;
   height: 39px;
   margin: 5px;
 }
@@ -166,10 +165,6 @@ aside {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.507);
   padding: 15px 0 15px 0;
-}
-
-.main-footer {
-  border-top: 1px solid rgba(0, 0, 0, 0.219);
 }
 
 .card-img {
