@@ -3,7 +3,7 @@
   src: url(./chomsky-font/misc/Chomsky-399c.woff);
 }
 
-* , * {
+* {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
@@ -33,6 +33,7 @@
   padding: 0 20px 0 20px;
   margin: auto;
 }
+
 
 .responsive-img {
   width: 880px;
