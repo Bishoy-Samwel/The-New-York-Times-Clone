@@ -4,6 +4,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,17 +13,20 @@
 
   box-sizing: border-box;
 }
+
 .header-section {
 
   width: 90vh;
   margin: 0 auto;
 
 }
+
 .header-section h1 {
   font-size: 45px;
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
 }
+
 .top-header {
   display: flex;
   justify-content: space-between;
@@ -34,34 +38,43 @@
   padding: 0 20px 0 20px;
   margin: auto;
 }
+
 .header-diver {
   border: 1px solid black;
 }
+
 .first {
   font-family: chomsky, Courier;
   font-size: 25px;
 }
+
 .left-header {
   display: flex;
   align-items: center;
 }
+
 .left-header * {
   padding-left: 15px;
 }
+
 .right-header {
   margin-right: 20px;
 }
+
 .share-icons {
   display: flex;
 
 }
+
 .header-caption {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.651);
 }
+
 .share-icons * {
   padding: 5px;
 }
+
 .header-figure {
   text-align: left;
   width: 1204px;
@@ -69,51 +82,59 @@
   padding-top: 50px;
   left: 0;
 }
+
 .article {
   margin: auto;
   width: 800px;
 }
+
 .header-figure figure {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
+
 .post-pragraph {
   padding-bottom: 20px;
 }
+
 .main-footer {
   display: flex;
   flex-direction: column;
   margin: 0 10% 0 10%;
 }
+
 .footer-categories {
   display: flex;
   justify-content: space-between;
-
-
 }
+
 .nav-footer ul {
   display: flex;
   justify-content: center;
 }
+
 ul {
   list-style: none;
 }
+
 a {
   color: black;
   font-size: 12px;
   text-decoration: none;
 }
+
 div .catergory-heading {
   font-size: 15px;
   font-weight: bold;
 }
+
 .goto-home {
   float: right;
   clear: right;
 }
+
 .btn {
   font-size: 15px;
   color: white;
@@ -121,14 +142,14 @@ div .catergory-heading {
   border: 0;
   padding: 7px 12px 7px 12px;
   border-radius: 2px;
-
 }
+
 .article-footer {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
-
 }
+
 .icon-item {
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.075);
@@ -136,6 +157,7 @@ div .catergory-heading {
   height: 40px;
   margin: 5px;
 }
+
 .icon-item:hover {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.144);
@@ -143,18 +165,22 @@ div .catergory-heading {
   height: 39px;
   margin: 5px;
 }
+
 aside {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.507);
   padding: 15px 0 15px 0;
 }
+
 .main-footer {
   border-top: 1px solid rgba(0, 0, 0, 0.219);
 }
+
 .card-img {
   width: 82px;
   height: 82px;
 }
+
 .first-card {
   border: 1px solid rgba(128, 128, 128, 0.192);
   padding: 15px;
@@ -164,74 +190,92 @@ aside {
   height: auto;
   flex-direction: column;
 }
+
 .card-heading {
   justify-content: space-between;
   display: flex;
 }
+
 .card-details {
   font-size: 15px;
 }
-card-title {
+
+.card-title {
   font-size: 18px;
 }
+
 .card-type {
   font-weight: 300;
   font-size: 13px;
 }
-heading {
+
+.heading {
   display: flex;
   justify-content: space-between;
 }
-suggestions {
+
+.suggestions {
   margin: auto;
   display: flex;
   justify-content: space-evenly;
   width: 80%;
 }
+
 .more-articles {
   flex-grow: 20;
   margin-right: 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.411);
 }
+
 .most-popular {
   width: 40%;
   flex-grow: 20;
 }
+
 .card-list {
   display: flex;
   justify-content: space-between;
 }
+
 .see-more {
   color: blue;
 }
+
 .sug-heading {
   font-size: 15px;
   padding-bottom: 20px;
 }
+
 .bottom-article {
   width: 272px;
 }
+
 .bottom-card-img {
   width: 260px;
 }
+
 .article-img-caption {
   font-size: 13px;
   color: rgba(0, 0, 0, 0.555);
 }
+
 .time {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.329);
 
 }
+
 .most-popular-item {
   font-size: 18px;
   border-top: 1px solid rgba(0, 0, 0, 0.349);
   padding: 3% 0 3% 0;
 }
+
 .space-card {
   display: flex;
   justify-content: stretch;
 }
+
 #img-grid {
   background-color: rgb(255, 255, 255);
   max-width: 60%;
@@ -241,14 +285,17 @@ suggestions {
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px 10px;
 }
+
 .img-section-desc {
   font-size: 70%;
   color: lightslategray;
 }
+
 .img-section-title {
   font-size: 90%;
   color: lightslategray;
 }
+
 #img-grid-heading {
   background-color: rgb(255, 255, 255);
   max-width: 60%;
