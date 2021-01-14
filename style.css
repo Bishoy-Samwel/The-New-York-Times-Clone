@@ -13,7 +13,7 @@
 
 .header-section {
   width: 90vh;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .header-section h1 {
@@ -39,6 +39,10 @@
   color: #567b95;
   text-align: left;
   left: 0;
+}
+
+.first-img{
+  max-width: 90%;
 }
 
 .header-diver {
@@ -71,8 +75,17 @@
   color: rgba(0, 0, 0, 0.651);
 }
 
+.youtube-video {
+  padding: 20px;
+  text-align: center;
+}
+
 .share-icons * {
   padding: 5px;
+}
+
+.responsive-img{
+  max-width: 70%;
 }
 
 .header-figure {

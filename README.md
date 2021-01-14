@@ -1,21 +1,11 @@
 # The-New-York-Times-Clone
 
-> One paragraph statement about the project.
-
-Additional description about the project and its features.
-
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**This is a new york time clone**
+**A clone version of The new york times website, well structured and styled to look exactly like the original**
 
 ## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-
-👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/Bishoy-Samwel)
 - GitHub: [@githubhandle](https://github.com/juxsalley)
