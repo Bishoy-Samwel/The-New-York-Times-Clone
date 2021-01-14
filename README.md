@@ -24,8 +24,10 @@
 
 ### Setup
 
-- clone to local storage
-
+- git clone <link-of-the-repo>
+- cd repo-folder
+- open in browser
+ 
 ### Install
 
 - No instalation required!
