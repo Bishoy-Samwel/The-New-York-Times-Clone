@@ -14,7 +14,7 @@
 
 ## LIVE DEMO
 
-![live demo link](https://bishoy-samwel.github.io/The-New-York-Times-Clone)
+[live demo link](https://bishoy-samwel.github.io/The-New-York-Times-Clone/)
 
 ### Prerequisites
 
