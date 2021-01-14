@@ -16,6 +16,9 @@
 
 [live demo link](https://bishoy-samwel.github.io/The-New-York-Times-Clone/)
 
+Working om this projrct you will learn to position elements and make them responsive 
+using the power of css flex-box, making images fit and centered. and more css alignment tricks
+
 ### Prerequisites
 
 - Text Editor
