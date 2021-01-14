@@ -331,3 +331,26 @@ aside {
   display: flex;
   padding-bottom: 15%;
 }
+
+.comments-section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+
+#submit {
+  width: 100%;
+  background-color: #214151;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  color: white;
+}
+
+input {
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.349);
+}
