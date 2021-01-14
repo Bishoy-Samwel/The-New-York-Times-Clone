@@ -37,10 +37,13 @@
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/juxsalley)
+- Twitter: [@__salley](https://twitter.com/__salley)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dev-salley/)
 
 👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/Bishoy-Samwel)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bishoy-samwuel-ss/)
 
 ## 📝 License
 
