@@ -158,9 +158,10 @@ div .catergory-heading {
   border-radius: 2px;
 }
 
-.read{
+.read {
   height: 15%;
 }
+
 .article-footer {
   display: flex;
   justify-content: space-between;
@@ -350,14 +351,15 @@ select {
   display: block;
   border: 1px solid rgb(138, 78, 78);
   box-sizing: border-box;
-
 }
+
 textarea {
   min-width: 100%;
   border: 1px solid rgb(138, 78, 78);
 }
 
-input[type="radio"]{
+input[type="radio"] {
   display: inline;
   margin-left: 1%;
 }
+ 
