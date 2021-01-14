@@ -362,3 +362,6 @@ input[type="radio"] {
   display: inline;
   margin-left: 1%;
 }
+input[type="checkbox"]{
+  display: inline;
+}
