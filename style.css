@@ -98,7 +98,7 @@
 
 .article {
   margin: auto;
-  width: 800px;
+  width: 700px;
 }
 
 .header-figure figure {
@@ -230,14 +230,14 @@ aside {
 }
 
 .more-articles {
-  flex-grow: 20;
+  flex-grow: 1;
   margin-right: 20px;
   border-top: 1px solid rgba(0, 0, 0, 0.411);
 }
 
 .most-popular {
   width: 40%;
-  flex-grow: 20;
+  flex-grow: 1;
 }
 
 .card-list {
@@ -309,4 +309,25 @@ aside {
   margin: auto;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr;
+}
+
+.editor-pick {
+  float: right;
+  text-align: left;
+  width: 20%;
+}
+
+.editor-img {
+  width: 40%;
+  padding-right: 5%;
+}
+
+.editors-info {
+  font-size: 12px;
+  right: 0;
+}
+
+.pick-card {
+  display: flex;
+  padding-bottom: 15%;
 }
