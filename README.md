@@ -44,3 +44,7 @@
 
 - GitHub: [@githubhandle](https://github.com/Bishoy-Samwel)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/bishoy-samwuel-ss/)
+
+## 📝 License
+
+This project is [MIT](./LICENSE.md) licensed.
