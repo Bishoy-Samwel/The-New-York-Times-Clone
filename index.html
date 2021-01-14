@@ -609,24 +609,26 @@
       <!-- username -->
 
       <label for="username">username</label> <br>
-      <input type="text" name="username" id="username" maxlength="20" required> <br>
+      <input class="form-item" type="text" name="username" id="username" maxlength="20" required> <br>
 
       <label for="email">Email</label> <br>
-      <input type="email" name="e-mail" id="email" maxlength="20" required> <br>
+      <input class="form-item" type="email" name="e-mail" id="email" maxlength="20" required> <br>
 
       <label for="comment">comments</label> <br>
-      <textarea name="comment" id="comment" cols="30" rows="5" maxlength="250">Type your comment here…
+      <textarea class="form-item" name="comment" id="comment" cols="30" rows="5" maxlength="250">Type your comment here…
       </textarea> <br>
 
-      <label for="opinion">Choose a car:</label>
-      <select name="opinion" id="opinion">
-        <option value="Positive">Positive</option>
-        <option value="Negative">Negative</option>
-        <option value="neutral">neutral</option>
-      </select> <br>
+      <label  for="opinion">What is your overall opinion about this article?</label> <br>
+      <input class="form-item" type="radio" name="opinion" id="Positive">
+      <label class="form-item" for="Positive">Positive</label>
+      <input class="form-item" type="radio" name="opinion" id="Negative">
+      <label class="form-item" for="Negative">Negative</label>
+      <input class="form-item" type="radio" name="opinion" id="neutral">
+      <label class="form-item"  for="neutral">neutral</label> <br>
+ 
 
-      <label for="checkbox">checkbox</label>
-      <input type="checkbox" name="checkbox" id="checkbox"> <br>
+      <label class="form-item" for="checkbox">checkbox</label>
+      <input class="form-item" type="checkbox" name="checkbox" id="checkbox"> <br>
       
       <input type="submit" id="submit" value="SEND"> <br>
     </Form>

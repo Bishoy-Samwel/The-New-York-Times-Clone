@@ -354,3 +354,7 @@ input {
   border-radius: 10px;
   border-color: rgba(0, 0, 0, 0.349);
 }
+
+.form-item{
+  margin-bottom: 20px;
+}
