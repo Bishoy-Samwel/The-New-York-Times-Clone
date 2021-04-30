@@ -589,11 +589,12 @@
         </aside>
 
         <footer class="article-footer">
-          <div class="button btn">
+          <div class="button btn read">
             <button class="btn" type="submit">
               READ 615 COMMENTS
             </button>
           </div>
+          
           <div class="share-icons">
             <div class="icon-item"><i class="fab fa-facebook"> </i></div>
             <div class="icon-item"><i class="fab fa-twitter"> </i></div>
@@ -601,6 +602,22 @@
             <div class="icon-item"><i class="fas fa-share"> </i></div>
 
           </div>
+          <form class="cmt-form" action="post">
+            <input  minlength="20" placeholder="Your Name" type="text" id="name" name="user_name" required/>
+      
+            <input  minlength="20" placeholder="Your Email" type="email" id="mail" name="user_mail" required/>
+      
+            <textarea  minlength="250" placeholder="Your Comment" id="cmt" name="user_message" required></textarea>
+            <br>
+            <label>What is your overall opinion about this article?</label>
+            <br>
+            Positive<input  type="radio" name="feedback" value="positive" />
+            Negative<input type="radio" name="feedback" value="negative" />
+            Neutral<input type="radio" name="feedback" value="neutral" />
+            <input type="checkbox"  name="subscribe" value="subscribe"> 
+            <label> I want to subscribe to the newsletter</label> 
+            <input type="Submit" value="Send">
+          </form>
         </footer>
   </section>
   <!-- form section  -->
