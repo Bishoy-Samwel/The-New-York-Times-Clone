@@ -53,7 +53,7 @@
       <div class="icon-item"><i class="fas fa-envelope"> </i></div>
       <div class="icon-item"><i class="fas fa-share"> </i></div>
       <div class="icon-item"><i class="far fa-bookmark"> </i></div>
-      <div class="icon-item"><i class="far fa-comment-alt"></i></div>
+      <a href="#form"><div class="icon-item"><i class="far fa-comment-alt"></i></div></a>
     </div>
   </div>
   <div class="header-figure">
@@ -217,7 +217,8 @@
       Cosmic Extragalactic Polarization, reported their results in a scientific briefing at the Center for
       Astrophysics here on Monday and in a set of papers submitted to The Astrophysical Journal.
     </p>
-  </section><section class="second-article">
+  </section>
+  <section class="second-article">
 
     <div id="img-grid-heading">
       <span class="sub-heading">
@@ -619,6 +620,36 @@
           </form>
         </footer>
   </section>
+  <!-- form section  -->
+  <div class="comments-section" id="form">
+    <Form class="comment-form">
+      <!-- username -->
+
+      <label for="username">username</label> <br>
+      <input class="form-item" type="text" name="username" id="username" maxlength="20" required> <br>
+
+      <label for="email">Email</label> <br>
+      <input class="form-item" type="email" name="e-mail" id="email" maxlength="20" required> <br>
+
+      <label for="comment">comments</label> <br>
+      <textarea class="form-item" name="comment" id="comment" cols="30" rows="5" maxlength="250">Type your comment here…
+      </textarea> <br>
+
+      <p>What is your overall opinion about this article?</p> <br>
+      <input class="form-item" type="radio" name="opinion" id="Positive">
+      <label class="form-item" for="Positive">Positive</label>
+      <input class="form-item" type="radio" name="opinion" id="Negative">
+      <label class="form-item" for="Negative">Negative</label>
+      <input class="form-item" type="radio" name="opinion" id="neutral">
+      <label class="form-item"  for="neutral">neutral</label> <br>
+ 
+
+      <label class="form-item" for="checkbox">checkbox</label>
+      <input class="form-item" type="checkbox" name="checkbox" id="checkbox"> <br>
+      
+      <input type="submit" id="submit" value="SEND"> <br>
+    </Form>
+  </div>
   <section class="suggestions">
     <div class="more-articles">
       <div class="newsletter">

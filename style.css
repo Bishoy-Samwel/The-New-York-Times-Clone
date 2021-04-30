@@ -336,33 +336,5 @@ aside {
   padding-bottom: 15%;
 }
 
-form {
-  margin: auto;
-  padding: 5%;
-  background-color: rgb(235, 235, 235);
-  border-radius: 10%;
-  width: 50%;
-}
 
-input,
-select {
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: block;
-  border: 1px solid rgb(138, 78, 78);
-  box-sizing: border-box;
-}
 
-textarea {
-  min-width: 100%;
-  border: 1px solid rgb(138, 78, 78);
-}
-
-input[type="radio"] {
-  display: inline;
-  margin-left: 1%;
-}
-
-input[type="checkbox"] {
-  display: inline;
-}
